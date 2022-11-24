@@ -1,6 +1,8 @@
-const express = reuqire("express");
+const express = require("express");
+// import bodyParser from "body-parser";
 const bodyParser = require("body-parser");
-import { randomBytes } from "crypto";
+const { randomBytes } = require("crypto");
+// import { randomBytes } from "crypto";
 
 const app = express();
 app.use(bodyParser.json());
